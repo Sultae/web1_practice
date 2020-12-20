@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+	background-color:gray;
+}
+
+div #wrapper {
+	width:100px;
+	text-align:left;
+	min-height:300px;
+	margin:0 auto;
+}
+
+header, footer, nav, aside, section {
+	margin:5px;
+	padding:10px;
+	border:1px solid black;
+}
+
+header {
+	font-size:xx-large;
+	height:200px;
+	text-align:center;
+	background-image:url('header.png');
+	background-repeat:no-repeat;
+	background-size:cotain;
+	border:1px solid black;
+}
+
+nav, section, aside {
+	float:left;
+	height:1200px;
+}
+
+nav {
+	width:400px;
+    text-decoration: none; color: black;
+}
+
+section {
+	width:1091px;
+}
+
+aside {
+	width:300px;
+}
+
+footer {
+	position:relative;
+	clear:both;
+	text-align:center;
+	background-image:url('header.png');
+	background-repeat:no-repeat;
+	background-size:cotain;
+	border:1px solid black;
+}
+
+a {
+	text-decoration: none; color: white;
+}
+   
+a:visited { 
+	text-decoration: none;
+}
+
+a:hover { 
+	text-decoration: none;
+}
+a:focus { 
+	text-decoration: none;
+}
+
+a:hover, a:active { 
+	text-decoration: none;
+}
